@@ -1,4 +1,5 @@
-TL;DR: When use FasterTransformer hidden size of PositionwiseFeedForward must equal to 4*hidden_dim
+TL;DR: When use FasterTransformer v4.0 (see [issue154](https://github.com/NVIDIA/FasterTransformer/issues/154#issuecomment-944104245))
+hidden size of PositionwiseFeedForward must equal to 4*hidden_dim
 
 Different between MASTERDecoder and ONMTDecoder
 1. MASTERDecoder not use cache
