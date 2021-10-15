@@ -7,11 +7,22 @@ Different between MASTERDecoder and ONMTDecoder
 
 ```bash
 pip3 install tabulate
+
+#batch_size
+#beam_width
+#head_number
+#size_per_head
+#vocab_size
+#sequence_length
+#encoder_hidden_dim
+#is_use_fp16
+
 ./bin/decoding_gemm 1 1 4 128 7001 32 512 0
 ```
 
 - hidden_dim: head_num * head_size
 - d_ffn: hidden size of PositionwiseFeedForward
+- only tested in batch_size==1
 
 ## d_ffn != 4*hidden_dim
 
