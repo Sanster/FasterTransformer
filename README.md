@@ -2,6 +2,8 @@
 
 This repository provides a script and recipe to run the highly optimized transformer-based encoder and decoder component, and it is tested and maintained by NVIDIA.
 
+20211015: Add [example](https://github.com/Sanster/FasterTransformer/tree/v4.0-master-example/sample/pytorch/master_example) for convert [Decoder](https://github.com/wenwenyu/MASTER-pytorch/blob/main/model/transformer.py#L176) of [MASTER-pytorch](https://github.com/wenwenyu/MASTER-pytorch) to FasterTransformer 
+
 ## Table Of Contents
 
 - [FasterTransformer](#fastertransformer)
