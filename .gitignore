@@ -2,3 +2,5 @@
 *.o
 *build*/
 *.pyc
+.idea
+**/.DS_Store
